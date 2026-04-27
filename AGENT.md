@@ -10,7 +10,7 @@ sources/          # 원본, 절대 수정 금지
   publications/   # 본인 논문 메타 (Scholar 등에서 수집)
   jobs/           # 채용 공고 — ingest 대상 아님, generate 입력 전용
 wiki/             # sources에서 증류한 "나"의 지식 베이스
-output/           # 공고에 맞춰 생성된 자소서 (.md / .txt / .pdf)
+output/           # 공고에 맞춰 생성된 자소서 (.md / .txt)
 ```
 `sources/` 하위에 새 카테고리(`portfolios/`, `recommendations/` 등)를 추가해도
 같은 ingest 규칙이 적용된다.
@@ -39,7 +39,7 @@ output/           # 공고에 맞춰 생성된 자소서 (.md / .txt / .pdf)
 3. `wiki/writing_style.md`를 in-context로 로드 — 원문 샘플 단락을 그대로
    참조하여 같은 어미·호흡·단락 구성으로 작성
 4. `output/{날짜}-{회사}-{직무}.md` (정본, 메타 포함) 저장
-5. 같은 stem으로 `.txt` (평문)와 `.pdf` (pandoc 변환) 동시 생성
+5. 같은 stem으로 `.txt` (평문) 생성
    — 자세한 변환 규칙은 [output/README.md](./output/README.md)
 6. 정본 메타에 어떤 wiki 항목을 사용했는지 주석으로 남김
 
