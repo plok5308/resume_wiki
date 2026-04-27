@@ -5,24 +5,30 @@ Karpathy의 LLM wiki 아이디어를 자소서 작성에 적용한 에이전트.
 
 ## 디렉토리
 ```
-sources/        # 원본, 절대 수정 금지
-  resumes/      # 과거 자소서 (.md / .txt)
-  jobs/         # 채용 공고 (.md / .txt)
-wiki/           # sources에서 증류한 "나"의 지식 베이스
-output/         # 공고에 맞춰 생성된 자소서
+sources/          # 원본, 절대 수정 금지
+  resumes/        # 과거 자소서 (.md / .txt)
+  publications/   # 본인 논문 메타 (Scholar 등에서 수집)
+  jobs/           # 채용 공고 — ingest 대상 아님, generate 입력 전용
+wiki/             # sources에서 증류한 "나"의 지식 베이스
+output/           # 공고에 맞춰 생성된 자소서 (.md / .txt / .pdf)
 ```
+`sources/` 하위에 새 카테고리(`portfolios/`, `recommendations/` 등)를 추가해도
+같은 ingest 규칙이 적용된다.
 
 ## 두 가지 작업 모드
 
-### 1) Ingest — 새 자소서 원본을 wiki에 반영
-입력: `sources/resumes/`의 새 파일 (**공고는 ingest 대상이 아님**)
+### 1) Ingest — 새 원본을 wiki에 반영
+입력: `sources/jobs/`를 **제외한** 모든 sources 하위의 새 파일
+(jobs는 generate 입력 전용)
 절차:
 1. 새 파일을 읽고 어떤 wiki 페이지가 영향을 받는지 식별
 2. 기존 wiki 페이지를 **먼저 갱신** (덮어쓰기가 아니라 병합)
 3. 새로 발견된 강점·일화·표현이 있으면 해당 페이지에 추가
-4. 모든 추가 항목 끝에 출처(`sources/resumes/파일명`)를 단다
+4. 모든 추가 항목 끝에 출처(`sources/{카테고리}/{파일명}`)를 단다
 5. 중복은 합치고, 모순되면 사용자에게 확인
-6. 말투 패턴(어미/접속사/원문 샘플)은 `wiki/writing_style.md`에 누적
+6. 카테고리별 가이드는 [CLAUDE.md](./CLAUDE.md)의 ingest 섹션 참조
+   - resumes → 모든 wiki 페이지, 특히 writing_style.md
+   - publications → 새 카드 생성보다 기존 experiences/skills의 anchor로 추가
 
 ### 2) Generate — 공고에 맞춘 자소서 작성
 입력: `sources/jobs/` 의 한 공고 파일 (+ 필요 시 문항 명세)

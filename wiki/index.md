@@ -4,11 +4,11 @@
 자소서를 새로 쓸 때 LLM이 참고하는 단일 진실 원본(single source of truth).
 
 ## 페이지 구성
-- [profile.md](./profile.md) — 인적사항·학력·경력 요약
-- [experiences.md](./experiences.md) — 프로젝트·업무 경험 카드
+- [profile.md](./profile.md) — 인적사항·학력·경력 요약, 논문 통계
+- [experiences.md](./experiences.md) — 프로젝트·업무 경험 카드 (논문은 해당 카드의 anchor로 묶임)
 - [strengths.md](./strengths.md) — 핵심 역량과 그 근거
 - [stories.md](./stories.md) — 자소서에 자주 쓰는 일화 (STAR 형식)
-- [skills.md](./skills.md) — 기술 스택·도구·자격
+- [skills.md](./skills.md) — 기술 스택·도구·자격·논문 (1저자/공동저자 분리)
 - [writing_style.md](./writing_style.md) — 어조·문체·자주 쓰는 표현
 - [values.md](./values.md) — 가치관·동기·커리어 방향성
 
