@@ -33,10 +33,19 @@
 - Python (NPU Simulator 직접 구현 등)
 
 ## 자격·수상
-- 2018 AI R&D Challenge 종합 3위 — 정보통신장관상, 3억 원 과제 수주
-- 삼성그룹 논문상 은상 (ISP Auto-Tuning)
+- **2018 AI R&D Challenge 종합 3위 (Team Lead)** — 과학기술정보통신부 주관, 정보통신장관상, 3억 원 과제 수주
+- **Samsung Best Paper Award (Silver Prize), Multimedia Category, 2020** — "Automatic ISP Tuning Using Complementary Network" (MunCheon Kang, Jinseok Park, SoonKeun Chang, et al.)
+- **Naver Ph.D. Fellowship 2018** — 최상위 학회·저널 1저자 박사과정생 대상
+- **D'LIVE Scholarship 2018** — 국제 최상위 학회 발표 장학금
+- **인하대학교 정보통신공학과 수석 졸업 (2013)**
+- 출처: sources/cv/CV__Jinseok_Park__2026_April_.pdf
 
-## 논문 (총 13편 — Google Scholar 기준 2026-04-27)
+## 발표·외부 활동
+- **Naver Techtalk** (2019.03.08) — "Detecting Fake JPEG Images"
+- **Reviewer**: ICASSP 2024, ICASSP 2025, ICASSP 2026
+- 출처: sources/cv/CV__Jinseok_Park__2026_April_.pdf
+
+## 논문 (총 13편 — Google Scholar 누적 피인용 251회, 2026-04 기준)
 
 ### 1저자 (4편)
 - **ECCV 2018** — Double JPEG detection in mixed JPEG quality factors using deep CNN (피인용 117) — 연구실 최초의 CV 최상위 학회 게재
@@ -62,7 +71,7 @@
 ## 리더십
 - 8인 팀장 (2018 AI R&D Challenge)
 - audio generation 팀 리더 공식 임명
-- Gleo Multimodal 팀장 (10명 이상 AI 연구인력 리딩)
+- Gleo Multimodal Team Lead (2025.05 ~ 2026.04, 11명 멀티모달 AI 팀)
 
 ---
 출처: sources/resumes/ 전체

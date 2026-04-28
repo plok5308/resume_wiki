@@ -40,7 +40,7 @@
   - pre-training, fine-tuning 고도화
   - repetition penalty 도입, multi-token prediction 적용
   - end-to-end 시스템 설계 및 안정화 (RTF·latency·POI 입력·다국어)
-- Result: 2026년 6월 그랜저 탑재 예정, 국내·북미 100만 대 이상 적용. 합류 후 audio generation 팀 리더로 공식 임명
+- Result: 2026년 6월 그랜저 탑재 예정, 국내 10만 대 적용. 합류 후 audio generation 팀 리더로 공식 임명
 - 배운 점: LLM 기반 모델을 만드는 것과 실제 환경에서 안정적으로 동작시키는 것은 전혀 다른 수준의 문제이며, 후자가 진짜 가치다
 - 출처: sources/resumes/2026-04-saramin-audio_expert.md, 2026-04-saramin-multi_domain_expert.md
 

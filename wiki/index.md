@@ -1,7 +1,8 @@
 # Resume Wiki — Index
 
-`sources/`의 원본 자소서·공고로부터 증류한 "나"에 대한 지식 베이스.
-자소서를 새로 쓸 때 LLM이 참고하는 단일 진실 원본(single source of truth).
+`sources/`의 원본 자소서·공고·CV로부터 증류한 "나"에 대한 지식 베이스.
+자소서(`output/`)와 회사·직무별 면접용 자기소개 웹 페이지(`web/{stem}/`)를
+만들 때 LLM이 공통으로 참고하는 단일 진실 원본(single source of truth).
 
 ## 페이지 구성
 - [profile.md](./profile.md) — 인적사항·학력·경력 요약, 논문 통계
